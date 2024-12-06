@@ -8,6 +8,7 @@ let saludFinanciera = "Desconocido";
 let recomendaciones = [];
 
 // Función para mostrar el menú y navegar entre los módulos
+// "\n" se utiliza para salto de linea
 function mostrarMenu() {
     return prompt("Por favor, elige un tema:\n1. Introducción a las Finanzas Personales\n2. Presupuesto y Ahorro\n3. Conceptos Básicos de Inversión\n4. Salir");
 }
